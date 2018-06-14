@@ -1,0 +1,25 @@
+<table class="table table-hover table-condensed">
+  <thead>
+    <th width="18%">Front</th>
+    <th width="18%">Back</th>
+    <th width="18%">Category</th>
+    <th width="10%"></th>
+  </thead>
+  <tbody class="pointable">
+    <tr ng-repeat="flashcard in $ctrl.flashcards" 
+        ng-mouseenter="hovering = true" 
+        ng-mouseleave="hovering = false"
+        ng-click="$ctrl.clickRow(flashcard)">
+      <td>{{flashcard.front}}</td>
+      <td>{{flashcard.back}}</td>
+      <td>{{flashcard.category.name}}</td>
+      <td><span ng-show="hovering" 
+                class="glyphicon glyphicon-remove" 
+                ng-mouseenter="delhovering = true"
+                ng-mouseleave="delhovering = false"
+                ng-class="{'hover-delete':delhovering}"
+                ng-click="$ctrl.deleteFlashcard(flashcard)">
+        </span></td>
+    </tr>
+  </tbody>
+</table>

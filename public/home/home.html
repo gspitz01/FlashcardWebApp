@@ -1,0 +1,15 @@
+<nav></nav>
+
+<h1>Flashcards</h1>
+
+<flashcard-list-display flashcards="$ctrl.flashcards"
+                        remove-flashcard="$ctrl.removeFlashcard(flashcard)"
+                        select-flashcard="$ctrl.editFlashcard(flashcard)">
+</flashcard-list-display>
+<edit-flashcard categories="$ctrl.categories"
+                edited-flashcard="$ctrl.editedFlashcard"
+                create-new-flashcard="$ctrl.createFlashcard(flashcardData)"
+                update-flashcard="$ctrl.updateFlashcard()"></edit-flashcard>
+<br>
+<upload-flashcards upload-file="$ctrl.uploadFile(file)"></upload-flashcards>
+<div class="alert alert-danger" ng-show="!!$ctrl.errorMessage">{{errorMessage}}</div>

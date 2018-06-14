@@ -1,0 +1,417 @@
+[
+  {
+      "name": "Abstract factory",
+      "type": "Design Patterns: Creational",
+      "description": "Provide an interface for creating families of related or dependent objects without specifying their concrete classes.",
+      "inDesignPatterns": true,
+      "inCodeComplete": true,
+      "other": null
+  },
+  {
+      "name": "Builder",
+      "type": "Design Patterns: Creational",
+      "description": "Separate the construction of a complex object from its representation, allowing the same construction process to create various representations.",
+      "inDesignPatterns": true,
+      "inCodeComplete": false,
+      "other": null
+  },
+  {
+      "name": "Dependency injection",
+      "type": "Design Patterns: Creational",
+      "description": "A class accepts the objects it requires from an injector instead of creating the objects directly.",
+      "inDesignPatterns": false,
+      "inCodeComplete": false,
+      "other": null
+  },
+  {
+      "name": "Factory method",
+      "type": "Design Patterns: Creational",
+      "description": "Define an interface for creating a single object, but let subclasses decide which class to instantiate. Factory Method lets a class defer instantiation to subclasses.",
+      "inDesignPatterns": true,
+      "inCodeComplete": true,
+      "other": null
+  },
+  {
+      "name": "Lazy initialization",
+      "type": "Design Patterns: Creational",
+      "description": "Tactic of delaying the creation of an object, the calculation of a value, or some other expensive process until the first time it is needed. This pattern appears in the GoF catalog as \"virtual proxy\", an implementation strategy for the Proxy pattern.",
+      "inDesignPatterns": true,
+      "inCodeComplete": false,
+      "other": ["PoEAA"]
+  },
+  {
+      "name": "Multiton",
+      "type": "Design Patterns: Creational",
+      "description": "Ensure a class has only named instances, and provide a global point of access to them.",
+      "inDesignPatterns": false,
+      "inCodeComplete": false,
+      "other": null
+  },
+  {
+      "name": "Object pool",
+      "type": "Design Patterns: Creational",
+      "description": "Avoid expensive acquisition and release of resources by recycling objects that are no longer in use. Can be considered a generalisation of connection pool and thread pool patterns.",
+      "inDesignPatterns": false,
+      "inCodeComplete": false,
+      "other": null
+  },
+  {
+      "name": "Prototype",
+      "type": "Design Patterns: Creational",
+      "description": "Specify the kinds of objects to create using a prototypical instance, and create new objects from the 'skeleton' of an existing object, thus boosting performance and keeping memory footprints to a minimum.",
+      "inDesignPatterns": true,
+      "inCodeComplete": false,
+      "other": null
+  },
+  {
+      "name": "Resource acquisition is initialization (RAII)",
+      "type": "Design Patterns: Creational",
+      "description": "Ensure that resources are properly released by tying them to the lifespan of suitable objects.",
+      "inDesignPatterns": false,
+      "inCodeComplete": false,
+      "other": null
+  },
+  {
+      "name": "Singleton",
+      "type": "Design Patterns: Creational",
+      "description": "Ensure a class has only one instance, and provide a global point of access to it.",
+      "inDesignPatterns": true,
+      "inCodeComplete": true,
+      "other": null
+  },
+  {
+      "name": "Adapter, Wrapper, or Translator",
+      "type": "Design Patterns: Structural",
+      "description": "Convert the interface of a class into another interface clients expect. An adapter lets classes work together that could not otherwise because of incompatible interfaces. The enterprise integration pattern equivalent is the translator.",
+      "inDesignPatterns": true,
+      "inCodeComplete": true,
+      "other": null
+  },
+  {
+      "name": "Bridge",
+      "type": "Design Patterns: Structural",
+      "description": "Decouple an abstraction from its implementation allowing the two to vary independently.",
+      "inDesignPatterns": true,
+      "inCodeComplete": true,
+      "other": null
+  },
+  {
+      "name": "Composite",
+      "type": "Design Patterns: Structural",
+      "description": "Compose objects into tree structures to represent part-whole hierarchies. Composite lets clients treat individual objects and compositions of objects uniformly.",
+      "inDesignPatterns": true,
+      "inCodeComplete": true,
+      "other": null
+  },
+  {
+      "name": "Decorator",
+      "type": "Design Patterns: Structural",
+      "description": "Attach additional responsibilities to an object dynamically keeping the same interface. Decorators provide a flexible alternative to subclassing for extending functionality.",
+      "inDesignPatterns": true,
+      "inCodeComplete": true,
+      "other": null
+  },
+  {
+      "name": "Extension object",
+      "type": "Design Patterns: Structural",
+      "description": "Adding functionality to a hierarchy without changing the hierarchy.",
+      "inDesignPatterns": false,
+      "inCodeComplete": false,
+      "other": ["Agile Software Development, Principles, Patterns, and Practices"]
+  },
+  {
+      "name": "Facade",
+      "type": "Design Patterns: Structural",
+      "description": "Provide a unified interface to a set of interfaces in a subsystem. Facade defines a higher-level interface that makes the subsystem easier to use.",
+      "inDesignPatterns": true,
+      "inCodeComplete": true,
+      "other": null
+  },
+  {
+      "name": "Flyweight",
+      "type": "Design Patterns: Structural",
+      "description": "Use sharing to support large numbers of similar objects efficiently.",
+      "inDesignPatterns": true,
+      "inCodeComplete": false,
+      "other": null
+  },
+  {
+      "name": "Front controller",
+      "type": "Design Patterns: Structural",
+      "description": "The pattern relates to the design of Web applications. It provides a centralized entry point for handling requests.",
+      "inDesignPatterns": false,
+      "inCodeComplete": false,
+      "other": ["J2EE Patterns", "PoEAA"]
+  },
+  {
+      "name": "Marker",
+      "type": "Design Patterns: Structural",
+      "description": "Empty interface to associate metadata with a class.",
+      "inDesignPatterns": false,
+      "inCodeComplete": false,
+      "other": ["Effective Java"]
+  },
+  {
+      "name": "Module",
+      "type": "Design Patterns: Structural",
+      "description": "Group several related elements, such as classes, singletons, methods, globally used, into a single conceptual entity.",
+      "inDesignPatterns": false,
+      "inCodeComplete": false,
+      "other": null
+  },
+  {
+      "name": "Proxy",
+      "type": "Design Patterns: Structural",
+      "description": "Provide a surrogate or placeholder for another object to control access to it.",
+      "inDesignPatterns": true,
+      "inCodeComplete": false,
+      "other": null
+  },
+  {
+      "name": "Twin",
+      "type": "Design Patterns: Structural",
+      "description": "Twin allows modeling of multiple inheritance in programming languages that do not support this feature.",
+      "inDesignPatterns": false,
+      "inCodeComplete": false,
+      "other": null
+  },
+  {
+      "name": "Blackboard",
+      "type": "Design Patterns: Behavioral",
+      "description": "Artificial intelligence pattern for combining disparate sources of data (see blackboard system)",
+      "inDesignPatterns": false,
+      "inCodeComplete": false,
+      "other": null
+  },
+  {
+      "name": "Chain of responsibility",
+      "type": "Design Patterns: Behavioral",
+      "description": "Avoid coupling the sender of a request to its receiver by giving more than one object a chance to handle the request. Chain the receiving objects and pass the request along the chain until an object handles it.",
+      "inDesignPatterns": true,
+      "inCodeComplete": false,
+      "other": null
+  },
+  {
+      "name": "Command",
+      "type": "Design Patterns: Behavioral",
+      "description": "Encapsulate a request as an object, thereby allowing for the parameterization of clients with different requests, and the queuing or logging of requests. It also allows for the support of undoable operations.",
+      "inDesignPatterns": true,
+      "inCodeComplete": false,
+      "other": null
+  },
+  {
+      "name": "Interpreter",
+      "type": "Design Patterns: Behavioral",
+      "description": "Given a language, define a representation for its grammar along with an interpreter that uses the representation to interpret sentences in the language.",
+      "inDesignPatterns": true,
+      "inCodeComplete": false,
+      "other": null
+  },
+  {
+      "name": "Iterator",
+      "type": "Design Patterns: Behavioral",
+      "description": "Provide a way to access the elements of an aggregate object sequentially without exposing its underlying representation.",
+      "inDesignPatterns": true,
+      "inCodeComplete": true,
+      "other": null
+  },
+  {
+      "name": "Mediator",
+      "type": "Design Patterns: Behavioral",
+      "description": "Define an object that encapsulates how a set of objects interact. Mediator promotes loose coupling by keeping objects from referring to each other explicitly, and it allows their interaction to vary independently.",
+      "inDesignPatterns": true,
+      "inCodeComplete": false,
+      "other": null
+  },
+  {
+      "name": "Memento",
+      "type": "Design Patterns: Behavioral",
+      "description": "Without violating encapsulation, capture and externalize an object's internal state allowing the object to be restored to this state later.",
+      "inDesignPatterns": true,
+      "inCodeComplete": false,
+      "other": null
+  },
+  {
+      "name": "Null object",
+      "type": "Design Patterns: Behavioral",
+      "description": "Avoid null references by providing a default object.",
+      "inDesignPatterns": false,
+      "inCodeComplete": false,
+      "other": null
+  },
+  {
+      "name": "Observer or Publish/subscribe",
+      "type": "Design Patterns: Behavioral",
+      "description": "Define a one-to-many dependency between objects where a state change in one object results in all its dependents being notified and updated automatically.",
+      "inDesignPatterns": true,
+      "inCodeComplete": true,
+      "other": null
+  },
+  {
+      "name": "Servant",
+      "type": "Design Patterns: Behavioral",
+      "description": "Define common functionality for a group of classes.",
+      "inDesignPatterns": false,
+      "inCodeComplete": false,
+      "other": null
+  },
+  {
+      "name": "Specification",
+      "type": "Design Patterns: Behavioral",
+      "description": "Recombinable business logic in a Boolean fashion.",
+      "inDesignPatterns": false,
+      "inCodeComplete": false,
+      "other": null
+  },
+  {
+      "name": "State",
+      "type": "Design Patterns: Behavioral",
+      "description": "Allow an object to alter its behavior when its internal state changes. The object will appear to change its class.",
+      "inDesignPatterns": true,
+      "inCodeComplete": false,
+      "other": null
+  },
+  {
+      "name": "Strategy",
+      "type": "Design Patterns: Behavioral",
+      "description": "Define a family of algorithms, encapsulate each one, and make them interchangeable. Strategy lets the algorithm vary independently from clients that use it.",
+      "inDesignPatterns": true,
+      "inCodeComplete": true,
+      "other": null
+  },
+  {
+      "name": "Template method",
+      "type": "Design Patterns: Behavioral",
+      "description": "Define the skeleton of an algorithm in an operation, deferring some steps to subclasses. Template method lets subclasses redefine certain steps of an algorithm without changing the algorithm's structure.",
+      "inDesignPatterns": true,
+      "inCodeComplete": true,
+      "other": null
+  },
+  {
+      "name": "Visitor",
+      "type": "Design Patterns: Behavioral",
+      "description": "Represent an operation to be performed on the elements of an object structure. Visitor lets a new operation be defined without changing the classes of the elements on which it operates.",
+      "inDesignPatterns": true,
+      "inCodeComplete": false,
+      "other": null
+  },
+  {
+      "name": "Active Object",
+      "type": "Design Patterns: Concurrency",
+      "description": "Decouples method execution from method invocation that reside in their own thread of control. The goal is to introduce concurrency, by using asynchronous method invocation and a scheduler for handling requests.",
+      "inPOSA2": true,
+      "other": null
+  },
+  {
+      "name": "Balking",
+      "type": "Design Patterns: Concurrency",
+      "description": "Only execute an action on an object when the object is in a particular state.",
+      "inPOSA2": false,
+      "other": null
+  },
+  {
+      "name": "Binding properties",
+      "type": "Design Patterns: Concurrency",
+      "description": "Combining multiple observers to force properties in different objects to be synchronized or coordinated in some way.",
+      "inPOSA2": false,
+      "other": null
+  },
+  {
+      "name": "Blockchain",
+      "type": "Design Patterns: Concurrency",
+      "description": "Decentralized way to store data and agree on ways of processing it in a Merkle tree, optionally using digital signature for any individual contributions.",
+      "inPOSA2": false,
+      "other": null
+  },
+  {
+      "name": "Compute kernel",
+      "type": "Design Patterns: Concurrency",
+      "description": "The same calculation many times in parallel, differing by integer parameters used with non-branching pointer math into shared arrays, such as GPU-optimized Matrix multiplication or Convolutional neural network.",
+      "inPOSA2": false,
+      "other": null
+  },
+  {
+      "name": "Double-checked locking",
+      "type": "Design Patterns: Concurrency",
+      "description": "Reduce the overhead of acquiring a lock by first testing the locking criterion (the 'lock hint') in an unsafe manner; only if that succeeds does the actual locking logic proceed. Can be unsafe when implemented in some language/hardware combinations. It can therefore sometimes be considered an anti-pattern.",
+      "inPOSA2": true,
+      "other": null
+  },
+  {
+      "name": "Event-based asynchronous",
+      "type": "Design Patterns: Concurrency",
+      "description": "Addresses problems with the asynchronous pattern that occur in multithreaded programs.",
+      "inPOSA2": false,
+      "other": null
+  },
+  {
+      "name": "Guarded suspension",
+      "type": "Design Patterns: Concurrency",
+      "description": "Manages operations that require both a lock to be acquired and a precondition to be satisfied before the operation can be executed.",
+      "inPOSA2": false,
+      "other": null
+  },
+  {
+      "name": "Join",
+      "type": "Design Patterns: Concurrency",
+      "description": "Join-pattern provides a way to write concurrent, parallel and distributed programs by message passing. Compared to the use of threads and locks, this is a high-level programming model.",
+      "inPOSA2": false,
+      "other": null
+  },
+  {
+      "name": "Lock",
+      "type": "Design Patterns: Concurrency",
+      "description": "One thread puts a \"lock\" on a resource, preventing other threads from accessing or modifying it.",
+      "inPOSA2": false,
+      "other": ["PoEAA"]
+  },
+  {
+      "name": "Messaging design pattern (MDP)",
+      "type": "Design Patterns: Concurrency",
+      "description": "Allows the interchange of information (i.e. messages) between components and applications.",
+      "inPOSA2": false,
+      "other": null
+  },
+  {
+      "name": "Monitor object",
+      "type": "Design Patterns: Concurrency",
+      "description": "An object whose methods are subject to mutual exclusion, thus preventing multiple objects from erroneously trying to use it at the same time.",
+      "inPOSA2": true,
+      "other": null
+  },
+  {
+      "name": "Reactor",
+      "type": "Design Patterns: Concurrency",
+      "description": "A reactor object provides an asynchronous interface to resources that must be handled synchronously.",
+      "inPOSA2": true,
+      "other": null
+  },
+  {
+      "name": "Read-write lock",
+      "type": "Design Patterns: Concurrency",
+      "description": "Allows concurrent read access to an object, but requires exclusive access for write operations.",
+      "inPOSA2": false,
+      "other": null
+  },
+  {
+      "name": "Scheduler",
+      "type": "Design Patterns: Concurrency",
+      "description": "Explicitly control when threads may execute single-threaded code.",
+      "inPOSA2": false,
+      "other": null
+  },
+  {
+      "name": "Thread pool",
+      "type": "Design Patterns: Concurrency",
+      "description": "A number of threads are created to perform a number of tasks, which are usually organized in a queue. Typically, there are many more tasks than threads. Can be considered a special case of the object pool pattern.",
+      "inPOSA2": false,
+      "other": null
+  },
+  {
+      "name": "Thread-specific storage",
+      "type": "Design Patterns: Concurrency",
+      "description": "Static or \"global\" memory local to a thread.",
+      "inPOSA2": true,
+      "other": null
+  }
+]

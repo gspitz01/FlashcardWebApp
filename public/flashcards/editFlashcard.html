@@ -1,0 +1,11 @@
+<form class="form-inline">
+  <input type="text" placeholder="Front" ng-model="$ctrl.front" class="form-control"/>
+  <input type="text" placeholder="Back" ng-model="$ctrl.back" class="form-control"/>
+  <select ng-model="$ctrl.selectedCategory"
+          ng-options="category.name for category in $ctrl.categories track by category.$id"
+          class="form-control"></select>
+  
+  <button ng-show="!$ctrl.editing" class="btn btn-primary btn-sm" ng-click="$ctrl.create()">Create</button>
+  <button ng-show="$ctrl.editing" class="btn btn-primary btn-sm" ng-click="$ctrl.save()">Save</button>
+  <button ng-show="$ctrl.editing" class="btn btn-warning btn-sm" ng-click="$ctrl.cancel()">Cancel</button>
+</form>

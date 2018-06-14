@@ -1,0 +1,12 @@
+{
+  "name": "flashcardappweb",
+  "version": "1.0.0",
+  "description": "Web app for Flashcards",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "http-server"
+  },
+  "author": "Greg Spitz <gregspitz6@gmail.com> (http://www.gregspitz.com/)",
+  "license": "ISC"
+}
