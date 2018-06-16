@@ -93,7 +93,8 @@ angular.module('app').component('home', {
         var flashcardToSave = {
           front: flashcard.front,
           back: flashcard.back,
-          category: {name: category.name, id: category.$id}
+          category_name: category.name, 
+          category_id: category.$id
         };
         // Save the flashcard
         ctrl.flashcards.$add(flashcardToSave);

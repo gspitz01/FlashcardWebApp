@@ -28,7 +28,8 @@ angular.module('app').component('editFlashcard', {
       this.flashcardData = {
         front: this.front,
         back: this.back,
-        category: {name: this.selectedCategory.name, id: this.selectedCategory.$id}
+        category_name: this.selectedCategory.name,
+        category_id: this.selectedCategory.$id
       };
       this.setDefaults();
       this.createNewFlashcard({flashcardData: this.flashcardData})
@@ -43,7 +44,8 @@ angular.module('app').component('editFlashcard', {
     this.save = function() {
       this.editedFlashcard.front = this.front;
       this.editedFlashcard.back = this.back;
-      this.editedFlashcard.category = {name: this.selectedCategory.name, id: this.selectedCategory.$id};
+      this.editedFlashcard.category_name = this.selectedCategory.name;
+      this.editedFlashcard.category_id = this.selectedCategory.$id;
       this.updateFlashcard();
       this.cancel();
     }
